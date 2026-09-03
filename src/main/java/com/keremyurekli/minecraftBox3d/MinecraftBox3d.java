@@ -159,7 +159,7 @@ public final class MinecraftBox3d extends JavaPlugin {
                                 return Command.SINGLE_SUCCESS;
                             }
                             interfaces.get(player.getWorld()).ragdollHelper.spawnSimpleRagdoll(player.getEyeLocation());
-
+                            player.sendPlainMessage("§8[§bBox3D§8] §a✦ §fSpawned a ragdoll§f!");
                             return Command.SINGLE_SUCCESS;
                         })
                 ).then(Commands.literal("blender")
@@ -184,7 +184,7 @@ public final class MinecraftBox3d extends JavaPlugin {
                                                                     rpm,
                                                                     torque
                                                                     );
-
+                                                            pLayer.sendPlainMessage("§8[§bBox3D§8] §a✦ §fSpawned a blender§f!");
                                                             return Command.SINGLE_SUCCESS;
                                                         })
                                                 )
@@ -212,7 +212,7 @@ public final class MinecraftBox3d extends JavaPlugin {
 
                                                                     OtherDemos.wreckingBallAt(loc.toLocation(pLayer.getWorld()),interfaces.get(pLayer.getWorld()),
                                                                             ropeRad,resolution,ballRad);
-
+                                                                    pLayer.sendPlainMessage("§8[§bBox3D§8] §a✦ §fSpawned a wrecking ball§f!");
                                                                     return Command.SINGLE_SUCCESS;
                                                                 })
                                                         )
@@ -232,6 +232,7 @@ public final class MinecraftBox3d extends JavaPlugin {
                                                             OtherDemos.pyramidAt(pLayer.getLocation(),interfaces.get(pLayer.getWorld()),
                                                                     baseCount);
 
+                                                            pLayer.sendPlainMessage("§8[§bBox3D§8] §a✦ §fSpawned a pyramid§f!");
                                                             return Command.SINGLE_SUCCESS;
                                                         })
                                                 )
