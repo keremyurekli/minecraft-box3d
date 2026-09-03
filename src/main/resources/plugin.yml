@@ -1,0 +1,15 @@
+name: minecraft-box3d
+description: $description
+prefix: BOX3D
+version: '${version}'
+
+main: com.keremyurekli.minecraftBox3d.MinecraftBox3d
+api-version: '26.2'
+load: POSTWORLD
+
+authors: [ keremyurekli ]
+commands:
+  box3d:
+    description: "Main command"
+    usage: "/box3d"
+    aliases: [b3]
