@@ -24,7 +24,7 @@
   - **Hold & Carry**: Locks onto dynamic bodies and tethers them.
   - **Launch / Punch**: Fires bodies forward (`LMB`).
   - **Distance Control**: `Shift + Scroll` to dynamically adjust tether distance.
--  **Multi-Chunk Terrain Meshing**: Scans loaded chunks and generates static colliders for exposed surface blocks.
+-  **Multi-Chunk Terrain Meshing** (`/box3d snapshotchunks`): Scans loaded chunks and generates static colliders for exposed surface blocks.
 -  **Interpolated Visualizers**: Real-time synchronization of Box3D vectors and quaternions to Minecraft using `BlockDisplay` entities with 1-tick client interpolation.
 ---
 ### Interactive Physics Demos
