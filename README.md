@@ -29,7 +29,7 @@
 ---
 ### Interactive Physics Demos
 - **Simple Rectangle Creator** (`/box3d rectangle <pos> <xSize> <ySize> <zSize> <density> <friction> <blockMaterial>`):
-  - Multi-layer stacked brick structures that made from rigidbody cubes.
+  - Dynamic rigidbodies with custom size and settings.
 - **6-Piece Humanoid Ragdoll** (`/box3d ragdoll`):
   - A full humanoid ragdoll (Head, Torso, 2 Arms, 2 Legs) connected by rotational hinge joints with angle limits.
 - **Wrecking Ball** (`/box3d wreckingball <pos> <chainRadius> <chainResolution> <ballRadius>`):
