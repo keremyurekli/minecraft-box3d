@@ -61,6 +61,10 @@ mvn clean package
 - **[OpenJDK Project Panama](https://openjdk.org/projects/panama/)** — The Foreign Function & Memory (FFM) API and `jextract` tool.
 - **[PaperMC](https://papermc.io/)** — High-performance Minecraft server software.
 
+## LLM Usage
+Setup of the Panama FFM and its loaders.
+Cleanup and optimizations in the demos.
+
 ---
 
 ## License
