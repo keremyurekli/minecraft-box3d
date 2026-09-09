@@ -1,3 +1,6 @@
+> **ARCHIVED:** This project was like a small tech demo, i'm turning it into an api for other plugins with easier methods and usage.
+
+
 # 📦 Minecraft-Box3D
 
 [![Java](https://img.shields.io/badge/Java-22%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://jdk.java.net/22/)
