@@ -1,13 +1,6 @@
-> **ARCHIVED:** This project was like a small tech demo, i'm turning it into an api for other plugins with easier methods and usage.
-
+> **ARCHIVED:** This project was like a small tech demo. You can find the full api version at https://github.com/keremyurekli/mc-physics-api
 
 # 📦 Minecraft-Box3D
-
-[![Java](https://img.shields.io/badge/Java-22%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)](https://jdk.java.net/22/)
-[![Paper](https://img.shields.io/badge/Platform-Paper%20%2F%20Purpur-black?style=for-the-badge&logo=minecraft&logoColor=white)](https://papermc.io/)
-[![Box3D](https://img.shields.io/badge/Physics-%20Box3D-00599C?style=for-the-badge&logo=c&logoColor=white)](https://github.com/erincatto/box3d)
-[![Panama](https://img.shields.io/badge/API-Project%20Panama%20FFM-FF6600?style=for-the-badge)](https://openjdk.org/projects/panama/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
 > Bringing **Erin Catto's Box3D** into **Minecraft** using **Java 22+ Project Panama (Foreign Function & Memory API)** and Minecrafts **BlockDisplays**.
 
